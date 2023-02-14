@@ -1,0 +1,15 @@
+# Write a program that will ask for two numbers. Use a series of if statements to display whether the two numbers are the same or different, and if relevant, which one is larger.
+
+Num1 = int(input("Enter number 1" ))
+Num2 = int(input("Enter number 2" ))
+
+if Num1 > Num2:
+    print("Number one is larger ")
+
+elif Num1 < Num2:
+    print("Number two is larger")
+
+else:
+    print("The numbers are equal")
+
+

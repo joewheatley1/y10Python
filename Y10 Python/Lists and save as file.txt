@@ -1,0 +1,11 @@
+myfile = open("studentScores.txt", "w") #opens file
+
+for index in range (0,4): #how many times to repeat
+    height = input("Enter your height in ft ") #variable
+    weight = input("Enter your weight in kg ") #variable
+    surname = input("Enter your surname ") #variable
+    myfile.writelines([height + "ft " +  weight + "kg " +surname + "\n" ]) #turns data to a list
+
+myfile = open("studentScores.txt", "r") #opens and read the file
+print(myfile.read()) #prints whats read from the file
+myfile.close() #closes the file
